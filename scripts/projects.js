@@ -179,7 +179,9 @@ $(function(){
             backendProjects[i]["Built with"] = backendProjects[i]["Built with"].split(",").map((skill, i) => `<li>${skill}</li>`).join("");
             let newProject = `<section class="project"> 
     
-                <img class="project-img" src="${backendProjects[i].img}" alt="${backendProjects[i].Name} landing page."/>
+                <a class="img-a" href=${backendProjects[i]['View online']}>
+                        <img class="project-img" src="${backendProjects[i].img}" alt="${backendProjects[i].Name} landing page."/>
+                    </a>
             
                 <section>
     
@@ -227,7 +229,9 @@ $(function(){
             mobileAppProjects[i]["Built with"] = mobileAppProjects[i]["Built with"].split(",").map((skill, i) => `<li>${skill}</li>`).join(" ");
             let newProject = `<section class="project">
         
-            <img class="project-img" src="${mobileAppProjects[i].img}" alt="${mobileAppProjects[i].Name} mobile app"/>
+            <a class="img-a" href=${mobileAppProjects[i]['View online']}>
+                <img class="project-img" src="${mobileAppProjects[i].img}" alt="${mobileAppProjects[i].Name} landing page."/>
+            </a>
 
             <section>
                 <div class="close-project">
