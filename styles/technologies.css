@@ -1,0 +1,132 @@
+#skills-section{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.skill-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70em;
+    height: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.skill h2{
+    font-size: 2.75em;
+    margin: 0;
+    padding: 0;
+    text-shadow: -.07em .04em .05em rgb(6, 6, 30);
+}
+
+.skill p{
+    width: 33.33em;
+    margin: 1em auto 0 auto;
+}
+
+#html-skill{
+    background-color: #1c1c1c; /* charcoal */
+    color: #f5f5f5; /* off-white for contrast */
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    width: 50em;
+    margin: 0 auto;
+}
+
+.icon{
+    display: block;
+    width: 7em;
+    height: 7em;
+    margin: auto -.25em;
+    padding: 0;
+    filter: drop-shadow( -.1em .1em .02em rgba(8, 6, 23, 0.7));
+    position: relative;
+    bottom: 0;
+    transform: rotate(0deg);
+    transition: all ease-in .2s;
+}
+
+.icon:hover{
+    position: relative;
+    bottom: 1.25em;
+}
+
+#css-skill{
+    background-color: #2e3a59; /* navy slate */
+    color: #e0e6ed; /* light gray-blue */
+}
+
+#node-skill{
+    background-color: #2C5F2D;
+    color: #FFFFFF;
+}
+
+#test-skill{
+    background-color: #D35400;
+    color: #F8EDEB;
+}
+
+#api-skill{
+    background-color: #1F3A93;
+    color: #FFFFFF;
+}
+
+#sql-skill{
+    background-color: #4E342E;
+    color: #D7CCC8;
+}
+
+#git-skill{
+    background-color: #5A6978;
+    color: #FFFFFF;
+}
+
+#heroku-skill{
+    background-color: #581845;
+    color: #FAF3E0;
+}
+
+@media screen and ( max-width: 1300px) {
+
+    .h-screen{
+        min-height: 28em;
+    }
+
+    .skill-title-container{
+        width: 90%;
+    }
+
+    .skill-title-container p{
+        width: 90%;
+    }
+
+    .icon-container{
+        display: none;
+        width: 100%;
+        margin: 5% auto;
+        padding: 3em 5em;
+    }
+
+    .icon{
+        width: 4.5em;
+        height: 4.5em;
+    }
+
+};

@@ -1,0 +1,82 @@
+#skills-section{
+    margin: 0 0 8em 0;
+    padding: 0;
+    text-align: center;
+}
+
+#skills-section h2{
+    margin-bottom: 4em;
+}
+
+#skills-section > section{
+    width: 28em;
+    height: auto;
+    margin: 2em auto 6em 8em;
+    padding: 0;
+    border: .07em solid lightgrey;
+    border-radius: 1em;
+    box-shadow: .5em 1em .5em lightgrey;
+    transform: scale(0);
+}
+
+#skills-section > section:nth-child(3n){
+    margin: 2em 8em 6em auto;
+}
+
+.pop{
+    transition: transform;
+    transition-duration: .6s;
+    transition-timing-function: ease-in;
+    transform: scale(1) !important;
+}
+
+.skill-header{
+    height: 12em;
+    margin: 0;
+    padding: 0;
+}
+
+.fas-skill{
+    font-size: 2.25em;
+    margin: 1em 0 .5em 0;
+    padding: 0;
+}
+
+.skill-header h2{
+    margin: .5em 0 0 0;
+    padding: 0;
+}
+
+#skills-section > section ul{
+    margin: 0 0 3.5em 0;
+    padding: 0;
+}
+
+#skills-section > section ul li {
+    margin: 1em 0;
+    color: rgb(70, 70, 70);
+}
+
+@media screen and (max-width: 900px){
+
+    #skills-section{
+        margin-top: 7.5em;
+    }
+
+    #skills-section > section{
+        width: 28em;
+        max-width: 85%;
+        margin: 2em auto 2em auto !important;
+    }
+
+    #skills-section h2{
+        margin-bottom: 2em;
+    }
+    
+    #skills-section > section:nth-child(2n){
+        margin: 2em auto 2em auto;
+    }
+
+    .skill-header{
+    }
+}
