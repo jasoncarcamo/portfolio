@@ -134,6 +134,14 @@ main > section{
     color: grey;
 }
 
+.img-a{
+    display: block;
+    width: 22.65em;
+    margin: auto;
+    padding: 0;
+    max-height: 100%;
+}
+
 .project img{
     display: block;
     width: 22.65em;

@@ -12,11 +12,11 @@ $(function(){
         },
         {
             img: "./images/website1.png",
-            Name: "BrightPath Academy",
+            Name: "Bright Path Academy",
             Description: "A clean, modern landing page for a fictional school — built to showcase programs, values, and admissions info with an inviting, professional design",
             'Built with': "Html5, Css3",
-            'View Live': "https://jasoncarcamo.github.io/schoollayout",
-            'Github repo': "https://github.com/jasoncarcamo/schoollayout",
+            'View Live': "https://jasoncarcamo.github.io/brightpath/",
+            'Github repo': "https://github.com/jasoncarcamo/schoollayout/",
             started: "Feb 2019",
             ended: "Feb 2019"
         },
@@ -26,13 +26,13 @@ $(function(){
             Description: "A modern revamp of Yelp’s landing page — focused on cleaner UI, improved usability, and a more engaging experience for discovering local businesses.",
             'Built with': "Html5, Css3, React.js, Yelp Api",
             'View Live': "https://jasoncarcamo.github.io/yelp-api/",
-            'Github repo': "https://github.com/jasoncarcamo/yelp-api-code",
+            'Github repo': "https://github.com/jasoncarcamo/yelp-api-code/",
             started: "Feb 2019",
             ended: "Feb 2019"
         },
         {
             img: "./images/website4.png",
-            Name: "The Burger Joint",
+            Name: "Davie's Burgers",
             Description: "A juicy, bold landing page for a burger joint — showcasing mouth-watering menu items with a fresh, fun, and easy-to-navigate design.",
             'Built with': "Html, Css",
             'View Live': "https://jasoncarcamo.github.io/burgerrest/",
@@ -130,7 +130,9 @@ $(function(){
             frontendProjects[i]["Built with"] = frontendProjects[i]["Built with"].split(",").map((skill, i) => `<li>${skill}</li>`).join("");
                 let newProject = `<section class="project"> 
     
-                    <img class="project-img" src="${frontendProjects[i].img}" alt="${frontendProjects[i].Name} landing page."/>
+                    <a class="img-a" href=${frontendProjects[i]['View online']}>
+                        <img class="project-img" src="${frontendProjects[i].img}" alt="${frontendProjects[i].Name} landing page."/>
+                    </a>
                     
                     <section>
                         
