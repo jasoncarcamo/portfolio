@@ -5,7 +5,7 @@ $(function(){
             Name: "Sweet Bliss",
             Description: "A delightful ice cream shop landing page featuring rich visuals, smooth navigation, and a tempting UI — designed to satisfy every sweet tooth.",
             'Built with': "Html5, Css3",
-            'View Live': "https://jasoncarcamo.github.io/icecream-shop",
+            'View': "https://jasoncarcamo.github.io/icecream-shop",
             'Github repo': "https://github.com/jasoncarcamo/icecream-shop",
             started: "Feb 2019",
             ended: "Feb 2019"
@@ -15,7 +15,7 @@ $(function(){
             Name: "Bright Path Academy",
             Description: "A clean, modern landing page for a fictional school — built to showcase programs, values, and admissions info with an inviting, professional design",
             'Built with': "Html5, Css3",
-            'View Live': "https://jasoncarcamo.github.io/brightpath/",
+            'View': "https://jasoncarcamo.github.io/brightpath/",
             'Github repo': "https://github.com/jasoncarcamo/brightpath",
             started: "Feb 2019",
             ended: "Feb 2019"
@@ -25,7 +25,7 @@ $(function(){
             Name: "Yelp redesign",
             Description: "A modern revamp of Yelp’s landing page — focused on cleaner UI, improved usability, and a more engaging experience for discovering local businesses.",
             'Built with': "Html5, Css3, React.js, Yelp Api",
-            'View Live': "https://jasoncarcamo.github.io/yelp-api/",
+            'View': "https://jasoncarcamo.github.io/yelp-api/",
             'Github repo': "https://github.com/jasoncarcamo/yelp-api-code/",
             started: "Feb 2019",
             ended: "Feb 2019"
@@ -35,7 +35,7 @@ $(function(){
             Name: "Davie's Burgers",
             Description: "A juicy, bold landing page for a burger joint — showcasing mouth-watering menu items with a fresh, fun, and easy-to-navigate design.",
             'Built with': "Html, Css",
-            'View Live': "https://jasoncarcamo.github.io/burgerrest/",
+            'View': "https://jasoncarcamo.github.io/burgerrest/",
             'Github repo': "https://github.com/jasoncarcamo/burgerrest",
             started: "Mar 2019",
             ended: "Mar 2019"
@@ -48,7 +48,7 @@ $(function(){
             Name: "The Pizza Shop",
             Description: "Wood-fired, handcrafted pizzas made with the freshest ingredients. Classic flavors, bold twists, and every slice made with love.",
             'Built with': "Html5, Css3, React, Express, PostgreSQL, RESTful API",
-            'View Live': "https://pizza-shop-phi.vercel.app/",
+            'View': "https://pizza-shop-phi.vercel.app/",
             'Github repo': "https://github.com/jasoncarcamo/pizza-shop-client",
             started: "Feb 2025",
             ended: "March 2025"
@@ -58,7 +58,7 @@ $(function(){
             Name: "Serenta",
             Description: "Used Google's map api to create a web app that displays bedrooms and apartments for rent. The app is a prototype and has not been published yet, but spanish and english will be the main language for future users.",
             'Built with': "Html5, Css3, React, Express, PostgreSQL, RESTful API",
-            'View Live': "http://serenta.jasoncarcamo30.now.sh/",
+            'View': "http://serenta.jasoncarcamo30.now.sh/",
             'Github repo': "https://github.com/jasoncarcamo/serenta-client",
             started: "Sep 2019",
             ended: "Sep 2019"
@@ -68,7 +68,7 @@ $(function(){
             Name: "Password Manager",
             Description: "Users hash, sanitize, and provide protection against cross site scripting before saving their passwords.",
             'Built with': "Html5, Css3, React, Express, PostgreSQL, RESTful API",
-            'View Live': "https://password-manager.jasoncarcamo30.now.sh/",
+            'View': "https://password-manager.jasoncarcamo30.now.sh/",
             'Github repo': "https://github.com/jasoncarcamo/password-manager-client",
             started: "Apr 2019",
             ended: "Apr 2019"
@@ -78,7 +78,7 @@ $(function(){
             Name: "Julis Cleaning Company",
             Description: "Users get a feel of the company and can quickly request a quote with whatever the client has in mind. The admin recieves email confirmations when a user requests a quote or fills out the contact form. Admin also recieves push notifications on the mobile app version, see react native projects section.",
             'Built with': "Html5, Css3, React, Express, PostgreSQL, RESTful API, Nodemailer.js",
-            'View Live': "https://juliscleaningcompany.com/",
+            'View': "https://juliscleaningcompany.com/",
             'Github repo': "https://github.com/jasoncarcamo/julis-cleaning-company-client",
             started: "Aug 2019",
             ended: "Aug 2019"
@@ -93,7 +93,7 @@ $(function(){
             'Built with': "Html5, Css3, React, Express, PostgreSQL, RESTful API",
             'Download Android version': "https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40jasoncarcamo/PasswordManager-93d562a5666f41da8193a69985e1d9ef-signed.apk",
             'Download IOS version': "",
-            'View online': "https://snack.expo.io/@git/github.com/jasoncarcamo/password-manager-app",
+            'View': "https://snack.expo.io/@git/github.com/jasoncarcamo/password-manager-app",
             'Github repo': "https://github.com/jasoncarcamo/password-manager-app",
             started: "Oct 2019",
             ended: "Oct 2019"
@@ -105,7 +105,7 @@ $(function(){
             'Built with': "React Native, Express, PostgreSQL, RESTful API, ASP.NET Core",
             'Download Android version': "https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40jasoncarcamo/JulisCleaningCompany-8f937bdae579404fb7e59271e92cfb5e-signed.apk",
             'Download IOS version': "",
-            'View online': "https://snack.expo.io/@git/github.com/jasoncarcamo/julisapp",
+            'View': "https://snack.expo.io/@git/github.com/jasoncarcamo/julisapp",
             'Github repo': "https://github.com/jasoncarcamo/julisapp",
             started: "Feb 2020",
             ended: "Feb 2020"
@@ -117,7 +117,7 @@ $(function(){
             'Built with': "React Native, Express, PostgreSQL, RESTful API, ASP.NET Core",
             'Download Android version': "https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40jasoncarcamo/FrancescosPizzeriaClient-771911f02ae84543b9cfa7a4d9d84597-signed.apk",
             'Download IOS version': "",
-            'View online': "https://snack.expo.io/@git/github.com/jasoncarcamo/FrancescosPizzeriaClient",
+            'View': "https://snack.expo.io/@git/github.com/jasoncarcamo/FrancescosPizzeriaClient",
             'Github repo': "https://github.com/jasoncarcamo/FrancescosMobileApp",
             started: "Jan 2020",
             ended: "Jan 2020"
@@ -128,9 +128,11 @@ $(function(){
     
         for(let i = 0; i < frontendProjects.length; i++){
             frontendProjects[i]["Built with"] = frontendProjects[i]["Built with"].split(",").map((skill, i) => `<li>${skill}</li>`).join("");
+
+            console.log(frontendProjects[i])
                 let newProject = `<section class="project"> 
     
-                    <a class="img-a" href=${frontendProjects[i]['View online']}>
+                    <a class="img-a" href=${frontendProjects[i]['View']}>
                         <img class="project-img" src="${frontendProjects[i].img}" alt="${frontendProjects[i].Name} landing page."/>
                     </a>
                     
@@ -157,7 +159,7 @@ $(function(){
                                 <div class="author-options-dot"> </div>
 
                                 <div class="project-options">
-                                    <a class="live-link" href='${frontendProjects[i]["View Live"]}' target='_blank' aria-label="${frontendProjects[i].Name} View" rel="noopener">View</a>
+                                    <a class="live-link" href='${frontendProjects[i]["View"]}' target='_blank' aria-label="${frontendProjects[i].Name} View" rel="noopener">View</a>
                                     <a href='${frontendProjects[i]["Github repo"]}' target='_blank' aria-label="${frontendProjects[i].Name} github repository" rel="noopener">GitHub Repo</a>
                                 </div>
                             </div>
@@ -179,9 +181,9 @@ $(function(){
             backendProjects[i]["Built with"] = backendProjects[i]["Built with"].split(",").map((skill, i) => `<li>${skill}</li>`).join("");
             let newProject = `<section class="project"> 
     
-                <a class="img-a" href=${backendProjects[i]['View online']}>
-                        <img class="project-img" src="${backendProjects[i].img}" alt="${backendProjects[i].Name} landing page."/>
-                    </a>
+                <a class="img-a" href=${backendProjects[i]['View']}>
+                    <img class="project-img" src="${backendProjects[i].img}" alt="${backendProjects[i].Name} landing page."/>
+                </a>
             
                 <section>
     
@@ -205,7 +207,7 @@ $(function(){
                             <div class="author-options-dot"> </div>
                             <div class="author-options-dot"> </div>
                             <div class="project-options">
-                                <a class="live-link" href='${backendProjects[i]["View Live"]}' target='_blank' aria-label="${backendProjects[i].Name} live page" rel="noopener">View</a>
+                                <a class="live-link" href='${backendProjects[i]["View"]}' target='_blank' aria-label="${backendProjects[i].Name} live page" rel="noopener">View</a>
                                 <a href='${backendProjects[i]["Github repo"]}' target='_blank' aria-label="${backendProjects[i].Name} github repository" rel="noopener">GitHub Repo</a>
                             </div>  
                         </div>
@@ -229,7 +231,7 @@ $(function(){
             mobileAppProjects[i]["Built with"] = mobileAppProjects[i]["Built with"].split(",").map((skill, i) => `<li>${skill}</li>`).join(" ");
             let newProject = `<section class="project">
         
-            <a class="img-a" href=${mobileAppProjects[i]['View online']}>
+            <a class="img-a" href=${mobileAppProjects[i]['View']}>
                 <img class="project-img" src="${mobileAppProjects[i].img}" alt="${mobileAppProjects[i].Name} landing page."/>
             </a>
 
@@ -255,7 +257,7 @@ $(function(){
                     <div class="author-options-dot"> </div>
 
                     <div class="project-options">
-                        <a href="${mobileAppProjects[i]["View online"]}" target="_blank" rel="noopener">View</a>
+                        <a href="${mobileAppProjects[i]["View"]}" target="_blank" rel="noopener">View</a>
 
                         <a href='${mobileAppProjects[i]["Github repo"]}' target='_blank' aria-label="${mobileAppProjects[i].Name} github repository" rel="noopener">GitHub Repo</a>
                         <a href="${mobileAppProjects[i]["Download Android version"]}" rel="noopener" download="${mobileAppProjects[i].Name} mobile app">Download Android version</a>
