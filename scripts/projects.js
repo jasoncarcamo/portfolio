@@ -16,7 +16,7 @@ $(function(){
             Description: "A clean, modern landing page for a fictional school — built to showcase programs, values, and admissions info with an inviting, professional design",
             'Built with': "Html5, Css3",
             'View Live': "https://jasoncarcamo.github.io/brightpath/",
-            'Github repo': "https://github.com/jasoncarcamo/schoollayout/",
+            'Github repo': "https://github.com/jasoncarcamo/brightpath",
             started: "Feb 2019",
             ended: "Feb 2019"
         },
