@@ -1,14 +1,24 @@
 $(function(){
     const frontendProjects = [
         {
+            img: "./images/netflix-page.png",
+            Name: "Netflix Homepage",
+            Description: "A clean and responsive recreation of the Netflix homepage, built using semantic HTML and external CSS. The layout features a hero banner, simplified navigation, and show category sections mimicking the look and feel of Netflix.com while focusing on performance, accessibility, and modern design practices.",
+            'Built with': "Html5, Css3",
+            'View': "https://jasoncarcamo.github.io/netflix-page/",
+            'Github repo': "https://github.com/jasoncarcamo/netflix-page",
+            started: "Jun 2025",
+            ended: "Jun 2025"
+        },
+        {
             img: "./images/sweetbliss.png",
             Name: "Sweet Bliss",
-            Description: "A delightful ice cream shop landing page featuring rich visuals, smooth navigation, and a tempting UI — designed to satisfy every sweet tooth.",
+            Description: "A delightful ice cream shop landing page featuring rich visuals, smooth navigation, and a tempting UI designed to satisfy every sweet tooth.",
             'Built with': "Html5, Css3",
             'View': "https://jasoncarcamo.github.io/icecream-shop",
             'Github repo': "https://github.com/jasoncarcamo/icecream-shop",
-            started: "Feb 2019",
-            ended: "Feb 2019"
+            started: "Jun 2025",
+            ended: "Jun 2025"
         },
         {
             img: "./images/website1.png",
@@ -128,8 +138,6 @@ $(function(){
     
         for(let i = 0; i < frontendProjects.length; i++){
             frontendProjects[i]["Built with"] = frontendProjects[i]["Built with"].split(",").map((skill, i) => `<li>${skill}</li>`).join("");
-
-            console.log(frontendProjects[i])
                 let newProject = `<section class="project"> 
     
                     <a class="img-a" href=${frontendProjects[i]['View']}>
