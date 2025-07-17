@@ -1,6 +1,16 @@
 $(function(){
     const frontendProjects = [
         {
+            img: "./images/facebook.png",
+            Name: "Facebook Homepage",
+            Description: "A responsive HTML & CSS replica of Facebook's official login homepage. This project accurately mimics the real Facebook.com landing experience, featuring semantic layout, styled login card, language and footer links, and modern responsive design all built without JavaScript or frameworks.",
+            'Built with': "Html5, Css3",
+            'View': "https://jasoncarcamo.github.io/facebook-page/",
+            'Github repo': "https://github.com/jasoncarcamo/facebook-page",
+            started: "Jun 2025",
+            ended: "Jun 2025"
+        },
+        {
             img: "./images/netflix-page.png",
             Name: "Netflix Homepage",
             Description: "A clean and responsive recreation of the Netflix homepage, built using semantic HTML and external CSS. The layout features a hero banner, simplified navigation, and show category sections mimicking the look and feel of Netflix.com while focusing on performance, accessibility, and modern design practices.",
