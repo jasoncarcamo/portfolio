@@ -1,19 +1,29 @@
 $(function(){
     const frontendProjects = [
         {
+            img: "./images/google.png",
+            Name: "Google",
+            Description: "A pixel-perfect, responsive replica of Google's iconic homepage, built with clean HTML and CSS to highlight layout precision and minimalist design.",
+            'Built with': "Html5, Css3",
+            'View': "https://google-nine-rouge.vercel.app/",
+            'Github repo': "https://github.com/jasoncarcamo/google",
+            started: "Mar 2025",
+            ended: "Mar 2025"
+        },
+        {
             img: "./images/sweetbliss.png",
             Name: "Sweet Bliss",
             Description: "A delightful ice cream shop landing page featuring rich visuals, smooth navigation, and a tempting UI designed to satisfy every sweet tooth.",
             'Built with': "Html5, Css3",
             'View': "https://jasoncarcamo.github.io/icecream-shop/",
             'Github repo': "https://github.com/jasoncarcamo/icecream-shop",
-            started: "Jun 2025",
-            ended: "Jun 2025"
+            started: "Mar 2025",
+            ended: "Mar 2025"
         },
         {
             img: "./images/website1.png",
             Name: "Bright Path Academy",
-            Description: "A clean, modern landing page for a fictional school — built to showcase programs, values, and admissions info with an inviting, professional design",
+            Description: "A clean, modern landing page for a fictional school — built to showcase programs, values, and admissions info with an inviting, professional design.",
             'Built with': "Html5, Css3",
             'View': "https://jasoncarcamo.github.io/brightpath/",
             'Github repo': "https://github.com/jasoncarcamo/brightpath/",
