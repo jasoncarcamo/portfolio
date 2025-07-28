@@ -35,7 +35,7 @@ $(function(){
             Name: "Sweet Bliss",
             Description: "A delightful ice cream shop landing page featuring rich visuals, smooth navigation, and a tempting UI designed to satisfy every sweet tooth.",
             'Built with': "Html5, Css3",
-            'View': "https://jasoncarcamo.github.io/icecream-shop/",
+            'View': "https://icecream-shop-opal.vercel.app/",
             'Github repo': "https://github.com/jasoncarcamo/icecream-shop",
             started: "Mar 2025",
             ended: "Mar 2025"
@@ -45,18 +45,8 @@ $(function(){
             Name: "Bright Path Academy",
             Description: "A clean, modern landing page for a fictional school — built to showcase programs, values, and admissions info with an inviting, professional design.",
             'Built with': "Html5, Css3",
-            'View': "https://jasoncarcamo.github.io/brightpath/",
+            'View': "https://brightpath-nine.vercel.app/",
             'Github repo': "https://github.com/jasoncarcamo/brightpath/",
-            started: "Feb 2019",
-            ended: "Feb 2019"
-        },
-        {
-            img: "./images/website2.png",
-            Name: "Yelp redesign",
-            Description: "A modern revamp of Yelp’s landing page — focused on cleaner UI, improved usability, and a more engaging experience for discovering local businesses.",
-            'Built with': "Html5, Css3, React.js, Yelp Api",
-            'View': "https://jasoncarcamo.github.io/yelp-api/",
-            'Github repo': "https://github.com/jasoncarcamo/yelp-api-code/",
             started: "Feb 2019",
             ended: "Feb 2019"
         },
@@ -65,7 +55,7 @@ $(function(){
             Name: "Davie's Burgers",
             Description: "A juicy, bold landing page for a burger joint — showcasing mouth-watering menu items with a fresh, fun, and easy-to-navigate design.",
             'Built with': "Html, Css",
-            'View': "https://jasoncarcamo.github.io/burgerrest/",
+            'View': "https://burgerrest.vercel.app/",
             'Github repo': "https://github.com/jasoncarcamo/burgerrest/",
             started: "Mar 2019",
             ended: "Mar 2019"
