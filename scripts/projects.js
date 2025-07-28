@@ -3,7 +3,7 @@ $(function(){
         {
             img: "./images/facebook.png",
             Name: "Facebook Homepage",
-            Description: "A responsive HTML & CSS replica of Facebook's official login homepage. This project accurately mimics the real Facebook.com landing experience, featuring semantic layout, styled login card, language and footer links, and modern responsive design all built without JavaScript or frameworks.",
+            Description: "A responsive HTML & CSS replica of Facebook's landing page. This project displays Facebook's experience, featuring semantic layout, styled login, language and footer, and modern responsive design all built without JavaScript or frameworks.",
             'Built with': "Html5, Css3",
             'View': "https://jasoncarcamo.github.io/facebook-page/",
             'Github repo': "https://github.com/jasoncarcamo/facebook-page",
