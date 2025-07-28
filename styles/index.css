@@ -21,7 +21,7 @@
     padding: 0 2.5em;
     text-align: center;
     opacity: 0;
-    transition: opacity 2.4s;
+    transition: opacity 1.7s;
 }
 
 .fadein-container{
@@ -51,7 +51,6 @@
     width: 8em;
     color: white;
     opacity: 0;
-    transition: .2s;
 }
 
 .fadein-viewmore{

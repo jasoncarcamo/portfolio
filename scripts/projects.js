@@ -161,7 +161,7 @@ $(function(){
                             <div></div>
                         </div>
         
-                        <button class="display-project-btn">View</button>
+                        <button class="display-project-btn" aria-label="Project options">View</button>
 
                         <div class="author-container">
                             <div class="author-icon"></div>
@@ -210,7 +210,7 @@ $(function(){
                         <div></div>
                     </div>
     
-                    <button class="display-project-btn">View</button>
+                    <button class="display-project-btn" aria-label="Project options">View</button>
 
                     <div class="author-container">
                         <div class="author-icon"></div>
@@ -259,7 +259,7 @@ $(function(){
                 <div></div>
             </div>                           
 
-            <button class="display-project-btn">View</button>
+            <button class="display-project-btn" aria-label="Project options">View</button>
 
             <div class="author-container">
                 <div class="author-icon"></div>
