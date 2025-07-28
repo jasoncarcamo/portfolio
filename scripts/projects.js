@@ -1,31 +1,11 @@
 $(function(){
     const frontendProjects = [
         {
-            img: "./images/facebook.png",
-            Name: "Facebook Homepage",
-            Description: "A responsive HTML & CSS design of Facebook's landing page. This project displays Facebook's landing page experience, featuring semantic layout, styled login (not functional), language and footer, and modern responsive design all built without JavaScript or frameworks.",
-            'Built with': "Html5, Css3",
-            'View': "https://jasoncarcamo.github.io/facebook-page/",
-            'Github repo': "https://github.com/jasoncarcamo/facebook-page",
-            started: "Jun 2025",
-            ended: "Jun 2025"
-        },
-        {
-            img: "./images/netflix-page.png",
-            Name: "Netflix Clone",
-            Description: "A clean and responsive recreation of the Netflix landing page, built using semantic HTML and external CSS. The layout features a hero banner, simplified navigation, and show category sections displays the look and feel of Netflix while focusing on performance, accessibility, and modern design practices.",
-            'Built with': "Html5, Css3",
-            'View': "https://jasoncarcamo.github.io/netflix-page/",
-            'Github repo': "https://github.com/jasoncarcamo/netflix-page",
-            started: "Jun 2025",
-            ended: "Jun 2025"
-        },
-        {
             img: "./images/sweetbliss.png",
             Name: "Sweet Bliss",
             Description: "A delightful ice cream shop landing page featuring rich visuals, smooth navigation, and a tempting UI designed to satisfy every sweet tooth.",
             'Built with': "Html5, Css3",
-            'View': "https://jasoncarcamo.github.io/icecream-shop",
+            'View': "https://jasoncarcamo.github.io/icecream-shop/",
             'Github repo': "https://github.com/jasoncarcamo/icecream-shop",
             started: "Jun 2025",
             ended: "Jun 2025"
@@ -36,7 +16,7 @@ $(function(){
             Description: "A clean, modern landing page for a fictional school — built to showcase programs, values, and admissions info with an inviting, professional design",
             'Built with': "Html5, Css3",
             'View': "https://jasoncarcamo.github.io/brightpath/",
-            'Github repo': "https://github.com/jasoncarcamo/brightpath",
+            'Github repo': "https://github.com/jasoncarcamo/brightpath/",
             started: "Feb 2019",
             ended: "Feb 2019"
         },
@@ -56,7 +36,7 @@ $(function(){
             Description: "A juicy, bold landing page for a burger joint — showcasing mouth-watering menu items with a fresh, fun, and easy-to-navigate design.",
             'Built with': "Html, Css",
             'View': "https://jasoncarcamo.github.io/burgerrest/",
-            'Github repo': "https://github.com/jasoncarcamo/burgerrest",
+            'Github repo': "https://github.com/jasoncarcamo/burgerrest/",
             started: "Mar 2019",
             ended: "Mar 2019"
         }
