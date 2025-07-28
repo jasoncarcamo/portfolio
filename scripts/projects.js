@@ -13,7 +13,7 @@ $(function(){
         {
             img: "./images/netflix-page.png",
             Name: "Netflix Clone",
-            Description: "A clean and responsive recreation of the Netflix homepage, built using semantic HTML and external CSS. The layout features a hero banner, simplified navigation, and show category sections mimicking the look and feel of Netflix.com while focusing on performance, accessibility, and modern design practices.",
+            Description: "A clean and responsive recreation of the Netflix landing page, built using semantic HTML and external CSS. The layout features a hero banner, simplified navigation, and show category sections displays the look and feel of Netflix while focusing on performance, accessibility, and modern design practices.",
             'Built with': "Html5, Css3",
             'View': "https://jasoncarcamo.github.io/netflix-page/",
             'Github repo': "https://github.com/jasoncarcamo/netflix-page",
