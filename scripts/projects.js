@@ -1,6 +1,26 @@
 $(function(){
     const frontendProjects = [
         {
+            img: "./images/facebook.png",
+            Name: "Facebook Homepage",
+            Description: "A responsive HTML & CSS design of Facebook's landing page. This project displays Facebook's landing page experience, featuring semantic layout, styled login (not functional), language and footer, and modern responsive design all built without JavaScript or frameworks.",
+            'Built with': "Html5, Css3",
+            'View': "https://facebook-page-ochre.vercel.app/",
+            'Github repo': "https://github.com/jasoncarcamo/facebook-page/",
+            started: "Jun 2025",
+            ended: "Jun 2025"
+        },
+        {
+            img: "./images/netflix-page.png",
+            Name: "Netflix Clone",
+            Description: "A clean and responsive recreation of the Netflix landing page, built using semantic HTML and external CSS. The layout features a hero banner, simplified navigation, and show category sections displays the look and feel of Netflix while focusing on performance, accessibility, and modern design practices.",
+            'Built with': "Html5, Css3",
+            'View': "https://netflix-page-sand.vercel.app/",
+            'Github repo': "https://github.com/jasoncarcamo/netflix-page/",
+            started: "Jun 2025",
+            ended: "Jun 2025"
+        },
+        {
             img: "./images/google.png",
             Name: "Google",
             Description: "A pixel-perfect, responsive replica of Google's iconic homepage, built with clean HTML and CSS to highlight layout precision and minimalist design.",
