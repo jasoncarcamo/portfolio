@@ -5,7 +5,7 @@ $(function(){
             Name: "Facebook Homepage",
             Description: "A responsive HTML & CSS design of Facebook's landing page. This project displays Facebook's landing page experience, featuring semantic layout, styled login (not functional), language and footer, and modern responsive design all built without JavaScript or frameworks.",
             'Built with': "Html5, Css3",
-            'View': "https://facebook-page-ochre.vercel.app/",
+            'View': "https://facebook-page-ashy.vercel.app/",
             'Github repo': "https://github.com/jasoncarcamo/facebook-page/",
             started: "Jun 2025",
             ended: "Jun 2025"
