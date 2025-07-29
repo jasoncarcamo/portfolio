@@ -41,16 +41,6 @@ $(function(){
             ended: "Mar 2025"
         },
         {
-            img: "./images/website1.png",
-            Name: "Bright Path Academy",
-            Description: "A clean, modern landing page for a fictional school — built to showcase programs, values, and admissions info with an inviting, professional design.",
-            'Built with': "Html5, Css3",
-            'View': "https://brightpath-nine.vercel.app/",
-            'Github repo': "https://github.com/jasoncarcamo/brightpath/",
-            started: "Feb 2019",
-            ended: "Feb 2019"
-        },
-        {
             img: "./images/website4.png",
             Name: "Davie's Burgers",
             Description: "A juicy, bold landing page for a burger joint — showcasing mouth-watering menu items with a fresh, fun, and easy-to-navigate design.",
@@ -59,10 +49,30 @@ $(function(){
             'Github repo': "https://github.com/jasoncarcamo/burgerrest/",
             started: "Mar 2019",
             ended: "Mar 2019"
+        },
+        {
+            img: "./images/website1.png",
+            Name: "Bright Path Academy",
+            Description: "A clean, modern landing page for a fictional school — built to showcase programs, values, and admissions info with an inviting, professional design.",
+            'Built with': "Html5, Css3",
+            'View': "https://brightpath-nine.vercel.app/",
+            'Github repo': "https://github.com/jasoncarcamo/brightpath/",
+            started: "Feb 2019",
+            ended: "Feb 2019"
         }
     ];
     
     const backendProjects = [
+        {
+            img: "./images/netflix-full.png",
+            Name: "Netflix",
+            Description: "A fully responsive, mobile-first Netflix-inspired web app built with React, HTML, and CSS. Features dynamic category rows powered by JSON data, cinematic banner previews with autoplay video, smooth zoom and fade animations, and modal-style movie details. Designed with reusable components and focused on clean UI, performance, and accessibility.",
+            'Built with': "Html5, Css3, React, Express, PostgreSQL, RESTful API",
+            'View': "https://flix-inky.vercel.app/",
+            'Github repo': "https://github.com/jasoncarcamo/netflix-clone",
+            started: "Jun 2025",
+            ended: "Jul 2025"
+        },
         {
             img: "./images/pizzashop.png",
             Name: "The Pizza Shop",
@@ -80,8 +90,19 @@ $(function(){
             'Built with': "Html5, Css3, React, Express, PostgreSQL, RESTful API",
             'View': "http://serenta.jasoncarcamo30.now.sh/",
             'Github repo': "https://github.com/jasoncarcamo/serenta-client",
-            started: "Sep 2019",
+            started: "Aug 2019",
             ended: "Sep 2019"
+        },
+        ,
+        {
+            img: "./images/jays.png",
+            Name: "Jay's Cleaning Company",
+            Description: "Users get a feel of the company and can quickly request a quote with whatever the client has in mind. The admin recieves email confirmations when a user requests a quote or fills out the contact form. Admin also recieves push notifications on the mobile app version, see react native projects section.",
+            'Built with': "Html5, Css3, React, Express, PostgreSQL, RESTful API, Nodemailer.js",
+            'View': "https://jays-cleaning-company.vercel.app/",
+            'Github repo': "https://github.com/jasoncarcamo/jays-cleaning-company-client",
+            started: "Jul 2019",
+            ended: "Aug 2019"
         },
         {
             img: "./images/website5.png",
@@ -92,16 +113,6 @@ $(function(){
             'Github repo': "https://github.com/jasoncarcamo/password-manager-client",
             started: "Apr 2019",
             ended: "Apr 2019"
-        },
-        {
-            img: "./images/jays.png",
-            Name: "Jay's Cleaning Company",
-            Description: "Users get a feel of the company and can quickly request a quote with whatever the client has in mind. The admin recieves email confirmations when a user requests a quote or fills out the contact form. Admin also recieves push notifications on the mobile app version, see react native projects section.",
-            'Built with': "Html5, Css3, React, Express, PostgreSQL, RESTful API, Nodemailer.js",
-            'View': "https://jays-cleaning-company.vercel.app/",
-            'Github repo': "https://github.com/jasoncarcamo/jays-cleaning-company-client",
-            started: "Aug 2019",
-            ended: "Aug 2019"
         }
     ];
     
