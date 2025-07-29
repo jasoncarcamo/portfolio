@@ -12,7 +12,7 @@ $(function(){
         },
         {
             img: "./images/netflix-page.png",
-            Name: "Netflix Clone",
+            Name: "Netflix Homepage",
             Description: "A clean and responsive recreation of the Netflix landing page, built using semantic HTML and external CSS. The layout features a hero banner, simplified navigation, and show category sections displays the look and feel of Netflix while focusing on performance, accessibility, and modern design practices.",
             'Built with': "Html5, Css3",
             'View': "https://netflix-page-sand.vercel.app/",
