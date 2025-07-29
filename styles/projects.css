@@ -54,7 +54,7 @@ main > section{
     align-self: center;
     height: 2em;
     border-radius: 100%;
-    background-image: url("../images/face-shot.jpg");
+    background-image: url("../images/nebula.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
