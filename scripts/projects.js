@@ -88,7 +88,7 @@ $(function(){
             Name: "Serenta",
             Description: "Used Google's map api to create a web app that displays bedrooms and apartments for rent. The app is a prototype and has not been published yet, but spanish and english will be the main language for future users.",
             'Built with': "Html5, Css3, React, Express, PostgreSQL, RESTful API",
-            'View': "http://serenta.jasoncarcamo30.now.sh/",
+            'View': "https://new-serenta-client.vercel.app/",
             'Github repo': "https://github.com/jasoncarcamo/serenta-client",
             started: "Aug 2019",
             ended: "Sep 2019"
@@ -108,7 +108,7 @@ $(function(){
             Name: "Password Manager",
             Description: "Users hash, sanitize, and provide protection against cross site scripting before saving their passwords.",
             'Built with': "Html5, Css3, React, Express, PostgreSQL, RESTful API",
-            'View': "https://password-manager.jasoncarcamo30.now.sh/",
+            'View': "https://password-manager-client-gamma.vercel.app/",
             'Github repo': "https://github.com/jasoncarcamo/password-manager-client",
             started: "Apr 2019",
             ended: "Apr 2019"
