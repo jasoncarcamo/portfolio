@@ -250,8 +250,13 @@ main > section{
         flex-direction: column !important;
     }
 
+    .img-a{
+        width: 100%;
+        border-radius: 10px;
+    }
+
     .project img{
-        width: 100% !important;
+        width: 100%;
         margin: 0;
         padding: 0;
         min-height: unset;
