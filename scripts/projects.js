@@ -93,7 +93,6 @@ $(function(){
             started: "Aug 2019",
             ended: "Sep 2019"
         },
-        ,
         {
             img: "./images/jays.png",
             Name: "Jay's Cleaning Company",
