@@ -99,7 +99,7 @@ $(function(){
             Description: "Users get a feel of the company and can quickly request a quote with whatever the client has in mind. The admin recieves email confirmations when a user requests a quote or fills out the contact form. Admin also recieves push notifications on the mobile app version, see react native projects section.",
             'Built with': "Html5, Css3, React, Express, PostgreSQL, RESTful API, Nodemailer.js",
             'View': "https://jays-cleaning-company.vercel.app/",
-            'Github repo': "https://github.com/jasoncarcamo/julis-cleaning-company-client",
+            'Github repo': "https://github.com/jasoncarcamo/jays-cleaning-company-client",
             started: "Aug 2019",
             ended: "Aug 2019"
         }
