@@ -1,6 +1,16 @@
 $(function(){
     const frontendProjects = [
         {
+            img: "./images/businesscard.png",
+            Name: "Jason Carcamo - Sales Professional Business card",
+            Description: "A fully responsive and accessible HTML, CSS, and JavaScript landing page serving as an online business card for a professional automotive salesperson. This project features a semantic structure, a hero section with a responsive background image and video, smooth scrolling navigation, and buttons for email and phone contact. The design emphasizes modern, professional aesthetics, mobile-first responsiveness, and no frameworks.",
+            'Built with': "Html5, Css3",
+            'View': "https://sales-page-self-rho.vercel.app/",
+            'Github repo': "https://github.com/jasoncarcamo/sales-page",
+            started: "Feb 2026",
+            ended: "Feb 2026"
+        },
+        {
             img: "./images/facebook.png",
             Name: "Facebook Homepage",
             Description: "A responsive HTML & CSS design of Facebook's landing page. This project displays Facebook's landing page experience, featuring semantic layout, styled login (not functional), language and footer, and modern responsive design all built without JavaScript or frameworks.",
