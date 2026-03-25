@@ -1,132 +1,122 @@
-#skills-section{
+
+
+/* Intro */
+
+.intro {
+    min-height: 70vh;
     display: flex;
-    position: relative;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 4em 2em;
     text-align: center;
 }
 
-.skill{
+.intro h2 {
+    font-size: 3rem;
+    max-width: 800px;
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+}
+
+.intro p {
+    max-width: 600px;
+    opacity: 0.7;
+    font-size: 1.1rem;
+}
+
+/* Skills section */
+
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Each skill */
+
+.skill {
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-.skill-title-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 70em;
-    height: 50%;
-    margin: 0 auto;
-    padding: 0;
-}
-
-.skill h2{
-    font-size: 2.75em;
-    margin: 0;
-    padding: 0;
-    text-shadow: -.07em .04em .05em rgb(6, 6, 30);
-}
-
-.skill p{
-    width: 33.33em;
-    margin: 1em auto 0 auto;
-}
-
-#html-skill{
-    background-color: #1c1c1c; /* charcoal */
-    color: #f5f5f5; /* off-white for contrast */
-}
-
-.icon-container{
-    display: flex;
-    justify-content: center;
-    width: 50em;
-    margin: 0 auto;
-}
-
-.icon{
-    display: block;
-    width: 7em;
-    height: 7em;
-    margin: auto -.25em;
-    padding: 0;
-    filter: drop-shadow( -.1em .1em .02em rgba(8, 6, 23, 0.7));
+    padding: 4em 10%;
+    border-top: 1px solid rgba(255,255,255,0.05);
     position: relative;
-    bottom: 0;
-    transform: rotate(0deg);
-    transition: all ease-in .2s;
+    transition: all 0.4s ease;
 }
 
-.icon:hover{
-    position: relative;
-    bottom: 1.25em;
+/* Alternating layout */
+
+.skill:nth-child(even) {
+    align-items: flex-end;
+    text-align: right;
 }
 
-#css-skill{
-    background-color: #2e3a59; /* navy slate */
-    color: #e0e6ed; /* light gray-blue */
+.skill:nth-child(odd) {
+    align-items: flex-start;
+    text-align: left;
 }
 
-#node-skill{
-    background-color: #2C5F2D;
-    color: #FFFFFF;
+/* Headings */
+
+.skill h2 {
+    font-size: 2.5rem;
+    max-width: 500px;
+    margin-bottom: 0.3em;
 }
 
-#test-skill{
-    background-color: #D35400;
-    color: #F8EDEB;
+/* Paragraph */
+
+.skill p {
+    max-width: 400px;
+    opacity: 0.7;
+    font-size: 1.05rem;
 }
 
-#api-skill{
-    background-color: #1F3A93;
-    color: #FFFFFF;
+/* Label (tech tag) */
+
+.skill span {
+    margin-top: 1.5em;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.4;
 }
 
-#sql-skill{
-    background-color: #4E342E;
-    color: #D7CCC8;
+/* Hover effect */
+
+.skill:hover {
+    transform: scale(1.02);
 }
 
-#git-skill{
-    background-color: #5A6978;
-    color: #FFFFFF;
+/* Subtle glow accent */
+
+.skill::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(59,130,246,0.15), transparent);
+    top: 20%;
+    right: 10%;
+    z-index: 0;
+    pointer-events: none;
 }
 
-#heroku-skill{
-    background-color: #581845;
-    color: #FAF3E0;
-}
+/* Responsive */
 
-@media screen and ( max-width: 1300px) {
-
-    .h-screen{
-        min-height: 28em;
+@media (max-width: 768px) {
+    .intro h2 {
+        font-size: 2rem;
     }
 
-    .skill-title-container{
-        width: 90%;
+    .skill {
+        align-items: flex-start !important;
+        text-align: left !important;
+        padding: 3em 2em;
     }
 
-    .skill-title-container p{
-        width: 90%;
+    .skill h2 {
+        font-size: 1.8rem;
     }
-
-    .icon-container{
-        display: none;
-        width: 100%;
-        margin: 5% auto;
-        padding: 3em 5em;
-    }
-
-    .icon{
-        width: 4.5em;
-        height: 4.5em;
-    }
-
-};
+}

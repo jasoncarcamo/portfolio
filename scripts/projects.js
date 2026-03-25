@@ -170,7 +170,7 @@ $(function(){
             frontendProjects[i]["Built with"] = frontendProjects[i]["Built with"].split(",").map((skill, i) => `<li>${skill}</li>`).join("");
                 let newProject = `<section class="project"> 
     
-                    <a class="img-a" href=${frontendProjects[i]['View']}>
+                    <a class="img-a" href=${frontendProjects[i]['View']} target="_blank">
                         <img class="project-img" src="${frontendProjects[i].img}" alt="${frontendProjects[i].Name} landing page."/>
                     </a>
                     
@@ -219,7 +219,7 @@ $(function(){
             backendProjects[i]["Built with"] = backendProjects[i]["Built with"].split(",").map((skill, i) => `<li>${skill}</li>`).join("");
             let newProject = `<section class="project"> 
     
-                <a class="img-a" href=${backendProjects[i]['View']}>
+                <a class="img-a" href=${backendProjects[i]['View']} target="_blank">
                     <img class="project-img" src="${backendProjects[i].img}" alt="${backendProjects[i].Name} landing page."/>
                 </a>
             
@@ -269,7 +269,7 @@ $(function(){
             mobileAppProjects[i]["Built with"] = mobileAppProjects[i]["Built with"].split(",").map((skill, i) => `<li>${skill}</li>`).join(" ");
             let newProject = `<section class="project">
         
-            <a class="img-a" href=${mobileAppProjects[i]['View']}>
+            <a class="img-a" href=${mobileAppProjects[i]['View']} target="_blank">
                 <img class="project-img" src="${mobileAppProjects[i].img}" alt="${mobileAppProjects[i].Name} landing page."/>
             </a>
 

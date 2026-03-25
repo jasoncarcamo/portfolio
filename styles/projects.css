@@ -14,12 +14,13 @@ main > section{
 
 .project{
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 46em;
-    height: 18.5em;
-    margin: 1.5em auto;
-    padding: 0;
+    align-items: center;
+    gap: 3em;
+    width: 85%;
+    max-width: 1100px;
+    margin: 4em auto;
+    padding: 2em;
+    border-radius: 16px;
     background-color: white !important;
     background: #fff;
     border-radius: 10px;
@@ -27,13 +28,14 @@ main > section{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.project:hover{
-    transform: translateY(-1em);
-    box-shadow: 0 .8em 1.6em rgba(0, 0, 0, 0.2);
+.project:hover {
+    transform: translateY(-6px) scale(1.01);
+    border-color: rgba(255, 255, 255, 0.12);
 }
 
 .project > section{
-    padding: 2.22em 2.66em;
+    flex: 1;
+    padding: 0;
 }
 
 .close-project{
@@ -135,19 +137,22 @@ main > section{
 }
 
 .img-a{
+    flex: 1;
     display: block;
-    width: 22.65em;
-    margin: auto;
-    padding: 0;
-    max-height: 100%;
+    overflow: hidden;
+    border-radius: 12px;
 }
 
-.project img{
+.project img {
+    width: 100%;
+    height: auto;
     display: block;
-    width: 22.65em;
-    margin: auto;
-    padding: 0;
-    max-height: 100%;
+    transition: transform 0.5s ease;
+}
+
+
+.project:hover img {
+    transform: scale(1.05);
 }
 
 .project-info{

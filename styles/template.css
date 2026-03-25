@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 html{
@@ -103,8 +103,8 @@ footer{
     top: 0;
     left: 0;
     z-index: 999;
-    background-color: white; /* slightly transparent white */
-    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.7); /* slightly transparent white */
+    backdrop-filter: blur(10px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease;
 }
@@ -132,10 +132,11 @@ footer{
     text-decoration: none;
     letter-spacing: 0.5px;
     transition: color 0.3s ease;
+    font-family: 'Cinzel', serif !important;
 }
 
 #nav-header h1 a:hover {
-    color: #0077ff;
+    color: #e5e7eb;
 }
 
 /* Nav links */
@@ -165,7 +166,7 @@ footer{
     left: 0;
     width: 0%;
     height: 2px;
-    background-color: #0077ff;
+    background-color: #0f172a;
     transition: width 0.3s ease;
 }
 
@@ -175,15 +176,15 @@ footer{
 
 /* Project/CTA button */
 .project-link {
-    border: 2px solid #0077ff;
+    border: 2px solid #0f172a;
     border-radius: 0.5em;
     padding: 0.5em 1em;
-    color: #0077ff;
+    color: #e5e7eb;
     transition: all 0.3s ease;
 }
 
 .project-link:hover {
-    background-color: #0077ff;
+    background-color: #0f172a;
     color: #fff;
     box-shadow: 0 4px 12px rgba(0, 119, 255, 0.3);
 }
